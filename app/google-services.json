@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "242258227754",
+    "firebase_url": "https://electronic-dictionary-89541-default-rtdb.firebaseio.com",
+    "project_id": "electronic-dictionary-89541",
+    "storage_bucket": "electronic-dictionary-89541.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242258227754:android:1a844fbed15e861b470953",
+        "android_client_info": {
+          "package_name": "com.example.electronicdictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242258227754-5iegfi4jnvq7ag3lu0mj57pjk3ugr2tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbO00kz5EGbspi4yBavo3d_3e2q0HAgi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242258227754-5iegfi4jnvq7ag3lu0mj57pjk3ugr2tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
