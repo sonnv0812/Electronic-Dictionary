@@ -43,6 +43,7 @@ public class VocabActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vocab);
+
         textWord = findViewById(R.id.text_word);
         textPronunciation = findViewById(R.id.text_pronunciation);
         textExplain = findViewById(R.id.text_explain);

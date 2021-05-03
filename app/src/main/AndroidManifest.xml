@@ -11,8 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ElectronicDictionary">
-
-        <activity android:name=".ui.home.HomeActivity">
+        <activity android:name=".ui.splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,6 +22,7 @@
         <activity android:name=".ui.game.play.PlayGameActivity" />
         <activity android:name=".ui.game.choose.ChooseGameActivity" />
         <activity android:name=".ui.topic.TopicActivity" />
+        <activity android:name=".ui.home.HomeActivity" />
     </application>
 
 </manifest>

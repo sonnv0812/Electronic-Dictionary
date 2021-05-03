@@ -18,7 +18,7 @@ public class PlayGameActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_game);
-
+        getSupportActionBar().hide();
         String gameUrl = getIntent().getStringExtra("game");
 
         webGame = findViewById(R.id.web_game);
