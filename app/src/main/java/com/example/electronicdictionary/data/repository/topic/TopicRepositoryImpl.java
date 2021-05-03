@@ -1,4 +1,4 @@
-package com.example.electronicdictionary.data.repository.home;
+package com.example.electronicdictionary.data.repository.topic;
 
 import android.util.Log;
 
@@ -16,7 +16,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeRepositoryImpl implements HomeRepository {
+public class TopicRepositoryImpl implements TopicRepository {
 
     private static final String ELECTRIC_CURRENT = "ELectric current";
     private static final String ELECTRONS = "Electrons";

@@ -6,11 +6,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ElectronicDictionary">
+
         <activity android:name=".ui.home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.vocab.VocabActivity" />
+        <activity android:name=".ui.game.play.PlayGameActivity" />
+        <activity android:name=".ui.game.choose.ChooseGameActivity" />
+        <activity android:name=".ui.topic.TopicActivity" />
     </application>
 
 </manifest>
